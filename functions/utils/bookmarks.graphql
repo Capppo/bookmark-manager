@@ -1,0 +1,13 @@
+type Bookmark {
+  title: String!
+  url: String!
+  tag: String!
+  createdAt: Long!
+  lastEdit: Long!
+}
+type Query {
+  bookmarks: [Bookmark!]!
+}
+
+
+
